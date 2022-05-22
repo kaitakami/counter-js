@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Source+Code+Pro:wght@300;400&display=swap"
+        rel="stylesheet" />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- COUNT DISPLAY -->
+    <main class="container">
+        <div>
+            <h1 class="title text rainbow_text_animated">Counter</h1>
+            <p id="counter-display" class="counter text">0</p>
+            <div id="buttons">
+                <button id="decrease-btn" class="main__button">Decrease</button>
+                <button id="reset-btn" class="main__button">Reset</button>
+                <button id="increase-btn" class="main__button">Increase</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            Kai Takami
+        </p>
+        <a href="https://github.com/kaitakami" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
